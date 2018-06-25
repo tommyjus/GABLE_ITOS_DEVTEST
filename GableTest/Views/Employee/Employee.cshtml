@@ -1,0 +1,41 @@
+﻿<h2>หน้าผู้เบิก</h2>
+
+
+<div class="row" style="padding-top: 20px;">
+    <div class="col-xs-12">
+            <table id="myTabName" class="navbar-text ">
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+    </div>
+        <div class="col-xs-12">
+            <table id="myTabPo" class="navbar-text">
+                <a href="/Bill/Bill" class="btn btn-default" role="button">ขอเบิก</a>
+                <thead>
+                    <tr></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+    <table class="table table-bordered" id="myTab">
+        <!-- head table -->
+        <thead>
+            <tr>
+                <td>ลำดับ</td>
+                <td>รายการ</td>
+                <td>จำนวน</td>
+                <td>สถานะ</td>
+                <td>วันที่</td>
+            </tr>
+        </thead>
+        <!-- body dynamic rows -->
+        <tbody></tbody>
+    </table>
+    </div>
+</div>
+
+@section scripts{
+    <script src="@Url.Content("~/js/Employee/Employee.js")"></script>
+}
+
